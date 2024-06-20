@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* -----------------------Header-st----------------------- */
+
+.logo {
+    font-size: var(--fs-48);
+    color: var(--null);
+    font-family: var(--poppins);
+}
+
+.log-out {
+    width: 118px;
+    height: 46px;
+    background-color: var(--primary);
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    font-family: var(--poppins);
+}
+
+.gap-56 {
+    gap: 56px;
+}
+
+.bg-color {
+
+    box-shadow: 0px 8px 35px 0px #0000000D;
+}
+
+.Event {
+    color: var(--primary);
+}
+
+.ml-99 {
+    margin-left: 99px;
+}
+
+
+
+.nav-tag {
+    font-family: var(--poppins);
+    font-size: var(--fs-16);
+
+}
+
+
+
+
+
+/* -----------------------Header-end----------------------- */
+/* -----------------------section-1  st----------------------- */
+
+
+
+.home {
+    color: var(--secondary);
+
+}
+
+.show-1 {
+    width: 254px;
+    height: 46px;
+    background-color: var(--nul);
+    border-radius: 23px;
+    border: none;
+
+}
+
+.ml-13 {
+    margin-left: 13px;
+}
+
+.section-head {
+    font-family: var(--poppins);
+    font-size: var(--fs-48);
+    font-weight: 600;
+    line-height: 72px;
+
+
+}
+
+.section-1-text {
+    font-family: var(--poppins);
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--secondary);
+
+}
+
+.gap-35 {
+    gap: 35px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+
+/* --------------------hover-------------------- */
+
+
+/* --------------------header-hover-------------------- */
+.light::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    transition: all 300ms ease-in-out;
+    background-color: rgb(0, 0, 0);
+}
+
+.light:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.log-out:hover {
+    color: var(--primary);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+}
+
+
+/* --------------------end-------------------- */
+/* ------------------------------section-1-hover------------------------------ */
+.show-1:hover {
+    background-color: var(--primary);
+    color: var(--white);
+
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------responsive------------------------- */
+/* -------------------------header-responsive------------------------- */
+
+.logo{
+    font-size: var(--fs-40);
+}
+
+
+
+
+
+
+
+/* ------------------------------section-1-responsive------------------------------ */
+
+
+
+.butn{
+    margin: 0;
+    padding: 0;
+}
