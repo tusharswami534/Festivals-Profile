@@ -72,14 +72,38 @@
 
     font-weight: 600;
     line-height: 30px;
-    
+
 
 
 }
-.post-com:hover{
+
+.input-font {
+    font-family: var(--poppins);
+    font-size: var(--fs-20);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.post-com:hover {
     background-color: var(--primary);
     color: var(--white);
 
+}
+
+.ml-21 {
+    margin-left: 21px;
+}
+
+.max-width {
+    max-width: 800px;
+
+}
+
+.input-new {
+    outline: none;
+    border: none;
 }
 
 
@@ -295,4 +319,11 @@
         width: 60px;
         height: 60px;
     }
+
+    .column {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+
 }
