@@ -435,17 +435,6 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-    /* outline: 1px solid red !important; */
-}
 
 
 .w-100 {
@@ -533,83 +522,6 @@
 
 .img:hover {
     scale: 1.09;
-}
-
-@media (max-width: 768px) {
-
-    .col-mx-md-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-
-@media (max-width: 576px) {
-    .flex-sm-wrap {
-        flex-wrap: wrap;
-    }
-
-
-
-    .col-max-sm-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-
-
-    .photos {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-
-/* -------------------------responsive------------------------- */
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1400px) {
-    .headrr {
-        flex-direction: column;
-    }
-
-    .butn {
-        margin-bottom: 15px;
-    }
-
-    @media (max-width:576px) {
-        .buts {
-            flex-direction: column;
-        }
-
-    }
-}
-
-@media (max-width: 768px) {
-    .show-1 {
-
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-
-    .butn {
-        flex-direction: column;
-    }
-
-    .section-head {
-        text-align: center;
-    }
-
 }
 
 .bor-der {
@@ -745,9 +657,88 @@
     display: flex !important;
 }
 
-.modal-btns {}
 
 
+/* -------------------------responsive------------------------- */
+
+
+
+
+@media (max-width: 768px) {
+
+    .col-mx-md-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .flex-sm-wrap {
+        flex-wrap: wrap;
+    }
+
+
+
+    .col-max-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1400px) {
+    .headrr {
+        flex-direction: column;
+    }
+
+    .butn {
+        margin-bottom: 15px;
+    }
+
+    @media (max-width:576px) {
+        .buts {
+            flex-direction: column;
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .show-1 {
+
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .butn {
+        flex-direction: column;
+    }
+
+    .section-head {
+        text-align: center;
+    }
+
+}
 
 
 
