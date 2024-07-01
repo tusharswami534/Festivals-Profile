@@ -699,7 +699,9 @@
     border: none;
 }
 
-
+.cur{
+    cursor: pointer;
+}
 .photo {
     width: 191px;
     height: 60px;
