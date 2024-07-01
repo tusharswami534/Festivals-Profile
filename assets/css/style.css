@@ -695,6 +695,26 @@
     display: flex !important;
 }
 
+.btn-create {
+    border: none;
+}
+
+.photo {
+    width: 191px;
+    height: 60px;
+    background-color: #E6E6E6;
+    color: #5C5C5C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+
+}
+
 
 
 /* -------------------------responsive------------------------- */
