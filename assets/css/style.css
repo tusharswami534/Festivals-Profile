@@ -162,6 +162,34 @@
 
 }
 
+.mb-118 {
+    margin-bottom: 118px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.profile-txt-box {
+    max-width: 1244px;
+    background-color: whitesmoke;
+    border-radius: 0px 20px 20px 20px;
+    margin-left: 20px;
+    padding: 14px 20px;
+    width: 100%;
+}
+
+.remove-text {
+    margin-left: 20px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.remove {
+    margin-left: 5px;
+}
+
 
 
 
