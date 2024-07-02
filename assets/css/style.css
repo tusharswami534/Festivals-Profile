@@ -634,6 +634,10 @@
 .pl-28{
     padding-left: 28px;
 }
+.shows{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
 
 .btn-event {
     border-radius: 35px !important;
