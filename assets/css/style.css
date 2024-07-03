@@ -383,7 +383,12 @@
 .gap10 {
     gap: 20px;
 }
-
+.p-10-24{
+    padding: 10px 24px;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
 .mt-20 {
     margin-top: 20px;
 }
